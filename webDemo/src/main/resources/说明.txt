@@ -1,0 +1,6 @@
+1.org.smartmvc.configuration.Configuration是配置文件，里面指明了一些配置(在web.xml中使用 key 为 configurationPath 的参数指出,其实可以遍历clsss 找到它，也就启动找一次，不会占用太多资源。暂时没这么做 )
+2.org.smartmvc.controller 是 控制器的包 (里面每一个 方法都 给出了 例子参数，都是些基本的用法)，因为是做的
+3.暂时没特殊做文件上传，和文件下载。系统随处可以拿到 request 和response 用common 文件上传就是了。
+4.时间有限，代码没有经过严格的测试，也没有优化效率，和结构，只是随心而动写出来的。还有一些bug 没有修复。
+5.在说说这个smartmvc 包含了什么，感觉常见的都有了，1，参数封装。2，拦截器，3，转换器，4统一异常处理，5返回json 的支持。
+6.默认时间格式是  yyyy-MM-dd HH:mm:ss
